@@ -1,0 +1,10 @@
+@use '@angular/material' as mat;
+
+.my-custom-tabs {
+  @include mat.tabs-overrides((
+    active-indicator-color: #ff5722,
+   
+    inactive-label-text-color: #757575,
+    divider-color: #e0e0e0,
+  ));
+}

@@ -1,4 +1,7 @@
 
 <main class="p-6">
-    <app-navbar></app-navbar>
+    <app-navbar/>
+    <div class="py-6">
+        <app-tab [tabs]="tabs()" (tabsChange)="onTabsChange($event)"/>
+    </div>
 </main>
